@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ArraysExercicios\ArraysExercicios.csproj" />
+    <ProjectReference Include="..\ExercicioAvancado\ExercicioAvancado.csproj" />
+    <ProjectReference Include="..\Listas\Listas.csproj" />
+    <ProjectReference Include="..\LogicaMat\LogicaMat.csproj" />
+    <ProjectReference Include="..\Vetores\Vetores.csproj" />
+  </ItemGroup>
+
+</Project>
